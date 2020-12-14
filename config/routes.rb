@@ -1,3 +1,3 @@
-rails .application.routes.draw do
-  root 'posts#index'
+Rails.application.routes.draw do
+  post 'posts', to: 'posts#create'
 end
